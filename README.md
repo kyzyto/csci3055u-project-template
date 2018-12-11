@@ -18,6 +18,8 @@
 ## About the syntax
 
 > _give some code snippet of the language_
+> ###Interactive mode###
+> ###Script mode###
 
 *Let form*
 
@@ -58,11 +60,7 @@
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
-clojure
-(let [x 10
-      y 20]
-  (+ x y))
-`
+
 
 ## About the standard library
 

@@ -120,12 +120,10 @@
 >>>>        }
 >>>>     }
 >>>>  }
->>>> **Output** - 
->>>>   ```
->>>>  This is if statement
+>>>>  // Output - This is if statement
 
 >>>> - **If-else Statement** - if An ‘if’ statement can be followed by an optional else statement, which executes when the Boolean expression is false.
->>>>  ```
+>>>>  ```scala
 >>>>  object Demo {
 >>>>     def main(args: Array[String]) {
 >>>>        var x = 10;
@@ -136,9 +134,7 @@
 >>>>        }
 >>>>     }
 >>>>  }
->>>> **Output**
->>>>   ```
->>>>> This is else statement      
+>>>>  // Output - This is else statement      
 
 >>> **Loop**
 >>>> **For Loop**

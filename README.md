@@ -90,9 +90,10 @@
  >>>>  * This will print 'Hello World' as the output
  >>>>  */
  >>>>  def main(args: Array[String]) {
- >>>>      println("Hello, world!") // prints Hello World
+ >>>>      println("Hello, world!") 
  >>>>  }
  >>>> }
+ >>>> // Output - Hello, world
  
  >>>> - Newline Characters - Since Scala is line-oriented language where statements may be terminated by semicolons (;) or newlines. It has a very similar approach to this like as that of Java
  >>>>   ```
@@ -100,13 +101,13 @@
  >>>> - Blank Lines and Whitespace - In Scala lines containing only whitespace, could possibly be with a comment, is known as a blank line, and Scala totally ignores it while running the program. Tokens may be separated by whitespace characters and/or comments.
 
 >>> **Variables**- In Scala variables can have three different scopes depending on the place where they are being used. The could exist as fields, as methods parameters and as local variables. Scalar has different synatax for variable declaration. It goes from **nutable variables** with the keyword being **var**;
->>>> ```
->>>> var myVar : String = "Foo"
->>>> var dVar : String - "Fee"
+>>>>  ```
+>>>>  var myVar : String = "Foo"
+>>>>  var dVar : String - "Fee"
 >>> to **immutable variables** with the keyword being **val**;
 >>>> ````
->>>> val myVal : String = "Foo"
->>>> val dVal : String - "Fee"
+>>>>  val myVal : String = "Foo"
+>>>>  val dVal : String - "Fee"
 >>> Scala also supports variable type inference and Multiple assignments such as tuples
 
 >>> **Conditions and Boolen expression**- Like in Java, Scala similarly has the same concepts of conditions;
@@ -136,8 +137,46 @@
 >>>>  }
 >>>>  // Output - This is else statement      
 
->>> **Loop**
->>>> **For Loop**
+>>>> **if-else-if-else Statement** -
+>>>>  ```scala
+>>>>  object Demo {
+>>>>     def main(args: Array[String]) {
+>>>>        var x = 10;
+>>>>        if( x == 20 ){ //if (boolean_expression)
+>>>>           println("This is if statement"); //Statements will execute if the Boolean expression is true
+>>>>        }else  if(x == 10){
+>>>>           println("This is else-if statement"); //Statements will execute if the Boolean expression is true
+>>>>        }else{
+>>>>           println("This is else statement"); // Statement will execute if the Boolean expression is false
+>>>>        }
+>>>>     }
+>>>>  }
+>>>> // Output - This is else-if statement
+>>> Scala also hosts nested conditions like 'if' and 'else' statement within themselves
+
+>>> **Loop** - In every language various controls structures exists to execute blocks of code several number of times that is why loop statements exists in Scala.
+>>>> **For Loop** - Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
+>>>>   ``` 
+>>>>   for( var x <- Range ){
+>>>>      statement(s);
+>>>>   }
+
+>>>>   ```scala
+>>>>   object Demo {
+>>>>      def main(args: Array[String]) {
+>>>>         var a = 0;   
+>>>>      // for loop execution with a range
+>>>>         for( a <- 1 to 5){
+>>>>            println( "Value of a: " + a );
+>>>>         }
+>>>>      }
+>>>>   }
+
+>>>> value of a: 1
+     value of a: Z
+     value of a: 3
+     value of a: 4
+     value of a: 5
 
 >>>> **while Loop**
 

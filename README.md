@@ -184,6 +184,7 @@
 >>>>   ```
 >>>>   while(condition){
 >>>>     statement(s);}
+>>>>
 >>>>   ```scala
 >>>>   object Demo {
 >>>>      def main(args: Array[String]) {
@@ -194,8 +195,9 @@
 >>>>           println( "Value of a: " + a );
 >>>>           a = a + 1;
 >>>>        }
->>>>>     }
->>>>>   }
+>>>>      }
+>>>>    }
+>>>>  //Output
 >>>>  value of a: 11
 >>>>  value of a: 1Z
 >>>>  value of a: 13

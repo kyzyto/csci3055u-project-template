@@ -8,10 +8,10 @@
 >Created by Martin Odersky. It was initially designed at the École Polytechnique Fédérale de Lausanne (EPFL) in the year 2001 and initially released in the year 2003, but it only surfaced to the public in the year 2004. Scala was originally released on the Java platform as a general-purpose programming language. The name Scala is an abbreviation of "scalable" not some whimsical notion, it represents a language that is scalable according to the needs of its users.
 
 > - **Some interesting features**
-  - Scala was designed to address critisims of Java
-  - Everything looks like an object
-  - Import statements can be anywhere
-  - Streams process big data (or infinite data) efficiently
+> - Scala was designed to address critisims of Java
+> - Everything looks like an object
+> - Import statements can be anywhere
+> - Streams process big data (or infinite data) efficiently
 
 ## About the syntax
 

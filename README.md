@@ -78,7 +78,8 @@
  >>>>>   ```
  >>>>>   `x `<clinit>` `yield`
  >>>>> - **Mixed Identifiers** - A mixed identifier consists of an alphanumeric identifier, then an underscore and a operator identifier
- >>>>
+ >>>>>   ```scala
+ >>>>>   unary_+,  myvar_=
  
 ## About the tools
 

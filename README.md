@@ -73,11 +73,12 @@
  >>>>>   + ++ ::: <?> :>
  >>>>> - **Alphanumeric Identifiers** - These kind of Identifiers could either start with a letter or and underscore, which other letters or underscore and digits could follow up. The the symbol '$" is restricted and should not be used in Scala as it is a reserved keyword.
  >>>>>   ```
- >>>>>   age, \_value, salary, \_\_1_\value
+ >>>>>   age, \_value, salary, \__1_value._
  >>>>> - **Literal Identifiers** - These are basically arbitrary string enclosed in back ticks (`...`)
  >>>>>   ```
  >>>>>   `x `<clinit>` `yield`
- >>>>> - **Mixed Identifiers** - 
+ >>>>> - **Mixed Identifiers** - A mixed identifier consists of an alphanumeric identifier, then an underscore and a operator identifier
+ >>>>
  
 ## About the tools
 

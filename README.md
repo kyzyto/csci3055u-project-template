@@ -61,13 +61,12 @@
  >>>   ```
  >>>   Hello, World!
  
-
-
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
+ >>> **Syntax and conding conventions**
+ >>>> - Case Sensitivity − _Scala is case-sensitive, which means identifier hello and Hello have completely different meanings in Scala._
+ >>>> - Class Names − _For all class names, the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case._
+ >>>> - Program File Name − _Name of the program file should exactly match the object name. When saving the file you should save it using the object name (Remember Scala is case-sensitive) and append ‘.scala’ to the end of the name. (If the file name and the object name do not match your program will never compile)._
+ >>>> - def main(args: Array[String]) − _Scala program processing starts from the main() method which is a mandatory part of every Scala Program._
+ 
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
@@ -88,9 +87,6 @@
 community written in the language._
 
 # Analysis of the language
-
-
-
 >> **The style of programming supported by the language: functional vs procedural programming**
 >>> _One of Scala’s perks is that its functional programming functionality with an OOP style._
 

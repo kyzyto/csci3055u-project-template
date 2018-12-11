@@ -31,7 +31,7 @@
  
  >>>  Type the following text to the right of the Scala prompt and press the Enter key −
  >>>  ```
- >>>  scala> println("Hello, Scala!");```
+ >>>  scala> println("Hello, Scala!");
  
  >>>  The following result will be produced
  >>>  ```

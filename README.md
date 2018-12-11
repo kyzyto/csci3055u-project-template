@@ -26,10 +26,43 @@
       y 20]
   (+ x y))
 ```
-
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+``````clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
+```clojure
+(let [x 10
+      y 20]
+  (+ x y))
+```
 
 ## About the standard library
 
@@ -69,23 +102,23 @@ community written in the language._
 
 
 >> **Its type system: static vs dynamic types**
->>> Scala is statically typed and compiles down to the same fast bytecode as Java so its usually about as fast as Java (sometimes a little faster sometimes a little slower). e.g. compare how well Scala does in some benchmarks with groovy or jruby. Or this. Note speed isn't everything - there are times when you might want to trade code thats 10x slower for more productivity and conciseness; but for a long term replacement for javac speed is important.
-Yet Scala has type inference - so its typically as concise as Ruby/Groovy but that everything has static types. This is a good thing; it makes code comprehension, navigation & documentation much simpler. Any token/method/symbol you can click on to navigate to the actual implementation code & documentation. No wacky monkey patching involved, or doubting of who added a method, when and how - which is great for large projects with lots of folks working on the same code over long periods of time. Scala seems to hit the perfect sweet spot between the consise feel of a dynamic language, while actually being completely statically typed. So I never have to remember the magic methods that are available - or run a script in a shell then inspect the object to see what it really looks like - the IDE/compiler just knows while you edit.
+>>> _Scala is statically typed and compiles down to the same fast bytecode as Java so its usually about as fast as Java (sometimes a little faster sometimes a little slower). e.g. compare how well Scala does in some benchmarks with groovy or jruby. Or this. Note speed isn't everything - there are times when you might want to trade code thats 10x slower for more productivity and conciseness; but for a long term replacement for javac speed is important.
+Yet Scala has type inference - so its typically as concise as Ruby/Groovy but that everything has static types. This is a good thing; it makes code comprehension, navigation & documentation much simpler. Any token/method/symbol you can click on to navigate to the actual implementation code & documentation. No wacky monkey patching involved, or doubting of who added a method, when and how - which is great for large projects with lots of folks working on the same code over long periods of time. Scala seems to hit the perfect sweet spot between the consise feel of a dynamic language, while actually being completely statically typed. So I never have to remember the magic methods that are available - or run a script in a shell then inspect the object to see what it really looks like - the IDE/compiler just knows while you edit._
 
 
 >> **Strengths and weaknesses of the language**
->>> Weakness-
+>>> _Weakness-
 >>>> - Slow Compilation- In the world of coding speed in very important and Scala is slow in comparison to Java and Kotlin, which runs in second where as it runs in seconds.
 >>>> - Binary Compilation in Challenging- for a few versions. Let us say you compiled with Scala 2.11 the same would not compile with 2.1.
->>>> - Less Efficient in the Management of Null Safety.
+>>>> - Less Efficient in the Management of Null Safety._
 
->>> Strength-
+>>> _Strength-
 >>>> - Simple and straightforward syntax- Scala typically requires two-thirds less code than Java. The syntax is also more flexible. For example, you can leave out periods between method calls so the code is more human-readable and easier to understand.
 >>>> - Inherently immutable objects- Scala’s programming language reduces many thread-safety concerns that spring up in traditional Java applications.
 >>>> - Highly functional- Scala treats functions as first-class citizens.
 >>>> - Fast implementation speed- It allows for quicker implementation and enhanced performance.
 >>>> - It is fun- Scala challenges strong engineers in a meaningful and entertaining manner, making development more fun.
 >>>> - Easy to solve concurrency issues. It has an Actor library to solve concurrency problems more rapidly.
->>>> - XML support. Scala supports XML, which is beneficial if you have a need to encode documents in your products
+>>>> - XML support. Scala supports XML, which is beneficial if you have a need to encode documents in your products._
 
 

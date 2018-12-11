@@ -159,7 +159,7 @@
 >>>>   ``` 
 >>>>   for( var x <- Range ){
 >>>>      statement(s); }
->>>>   for (var x <- List ){
+>>>>   for(var x <- List ){
 >>>>      statement(s); }
 
 >>>>   ```scala
@@ -181,26 +181,27 @@
 >>>>  value of b: 6
 >>> Scala also hosts nested for loop and loops with conditions similiar to what is seen in Java
 >>>> **while Loop** - It tests the condition before executing the loop body and repeats the statement or group of statements while a given condition is true.
->>>>  ```
->>>>  while(condition){
+>>>>   ```
+>>>>   while(condition){
 >>>>     statement(s);}
->>>>  ```scala
->>>>  object Demo {
->>>>     def main(args: Array[String]) {
+>>>>   ```scala
+>>>>   object Demo {
+>>>>      def main(args: Array[String]) {
 >>>>     // Local variable declaration:
->>>>       var a = 12;
+>>>>        var a = 11;
 >>>>         // while loop execution
->>>>       while( a < 17 ){
->>>>          println( "Value of a: " + a );
->>>>         a = a + 1;
->>>>      }
+>>>>        while( a < 16 ){
+>>>>           println( "Value of a: " + a );
+>>>>           a = a + 1;
+>>>>        }
+>>>>>     }
 >>>>>   }
->>>>> }
-value of a: 12
-value of a: 13
-value of a: 14
-value of a: 15
-value of a: 16
+>>>>  value of a: 11
+>>>>  value of a: 1Z
+>>>>  value of a: 13
+>>>>  value of a: 14
+>>>>  value of a: 15
+
 
 >>> **Functions**
 

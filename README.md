@@ -250,6 +250,13 @@
 
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
+>> - ###**Functions**###
+>>  - scala.math
+>>    - scala.
+
+>> - ###**Data Structures**###
+>>  - **scala.collection**
+>>    - **scala.collection.immutable**
 
 ## About open source library
 
@@ -300,4 +307,4 @@ Yet Scala has type inference - so its typically as concise as Ruby/Groovy but th
 >>>> - Easy to solve concurrency issues. It has an Actor library to solve concurrency problems more rapidly.
 >>>> - XML support. Scala supports XML, which is beneficial if you have a need to encode documents in your products._
 
-
+# References

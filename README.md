@@ -174,7 +174,7 @@
 >>>>   }
 >>>>  //Output
 >>>>  value of a: 1
->>>>  value of a: Z
+>>>>  value of a: 2
 >>>>  value of a: 3
 >>>>  value of b: 4
 >>>>  value of b: 5
@@ -199,7 +199,33 @@
 >>>>    }
 >>>>  //Output
 >>>>  value of a: 11
->>>>  value of a: 1Z
+>>>>  value of a: 12
+>>>>  value of a: 13
+>>>>  value of a: 14
+>>>>  value of a: 15
+>>>> **do-while** -  It tests for the condition at the bottom oof the loop, unlike the while loop that checks for the condition at the top of the loop.
+>>>>   ```
+>>>>   do{
+>>>>     statement(s);
+>>>>   }
+>>>>   while(condition);
+
+>>>>   ```scala
+>>>>   object Demo {
+>>>>      def main(args: Array[String]) {
+>>>>      // Local variable declaration:
+>>>>         var a = 11;
+>>>>     // do loop execution
+>>>>         do {
+>>>>            println( "Value of a: " + a );
+>>>>            a = a + 1;
+>>>>        }
+>>>>        while( a < 15 )
+>>>>     }
+>>>>   }
+>>>>  //Output
+>>>>  value of a: 11
+>>>>  value of a: 12
 >>>>  value of a: 13
 >>>>  value of a: 14
 >>>>  value of a: 15

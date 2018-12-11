@@ -62,10 +62,18 @@
  >>>   Hello, World!
  
  >>> **Syntax and conding conventions**
- >>>> - Case Sensitivity − _Scala is case-sensitive, which means identifier hello and Hello have completely different meanings in Scala._
- >>>> - Class Names − _For all class names, the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case._
- >>>> - Program File Name − _Name of the program file should exactly match the object name. When saving the file you should save it using the object name (Remember Scala is case-sensitive) and append ‘.scala’ to the end of the name. (If the file name and the object name do not match your program will never compile)._
- >>>> - def main(args: Array[String]) − _Scala program processing starts from the main() method which is a mandatory part of every Scala Program._
+ >>>> - **Case Sensitivity** − Scala is case-sensitive, which means identifier hello and Hello have completely different meanings in Scala.
+ >>>> - **Class Names** − For all class names, the first letter should be in Upper Case. If several words are used to form a name of the class, each inner word's first letter should be in Upper Case._
+ >>>> - **Program File Name** − Name of the program file should exactly match the object name. When saving the file you should save it using the object name (Remember Scala is case-sensitive) and append ‘.scala’ to the end of the name. (If the file name and the object name do not match your program will never compile). In essence if the object name is 'HelloWord' the file must be saved as 'HelloWorld.scala'
+ >>>> - **def main(args: Array[String])** − Scala program processing starts from the main() method which is a mandatory part of every Scala Program.
+ >>>> - **Method Names** − All method names must begin with a Lower Case letter. If multiple words are used to form the name of the method, then each inner word's first letter should be in Upper Case. For example ' def myMethodName() '
+ >>>> - **Identifiers** - In Scala names are required for all components, and the names used for objects, methods, classes and  variables are called identifiers. Since Scala is case sensitive keywoords cannot be used and an identifier.
+ >>>>> - **Operator Identifiers** - These kind of Identifiers consists of the printable ASCII characters such as +,-,?,: or #.And they could consist of one or more operator characters.
+ >>>>>   ```
+ >>>>>   + ++ ::: <?> :>
+ >>>>> - **Alphanumeric Identifiers** - These kind of Identifiers could either start with a letter or and underscore, which other letters or underscore and digits could follow up. The the symbol '$" is restricted and should not be used in Scala as it is a reserved keyword.
+ >>>>>   ```age, \_value\, salary, \__1_value\
+ >>>>> - **Mixed Identifiers**
  
 ## About the tools
 

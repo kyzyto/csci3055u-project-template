@@ -158,28 +158,49 @@
 >>>> **For Loop** - Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
 >>>>   ``` 
 >>>>   for( var x <- Range ){
->>>>      statement(s);
->>>>   }
+>>>>      statement(s); }
+>>>>   for (var x <- List ){
+>>>>      statement(s); }
 
 >>>>   ```scala
 >>>>   object Demo {
 >>>>      def main(args: Array[String]) {
->>>>         var a = 0;   
->>>>      // for loop execution with a range
->>>>         for( a <- 1 to 5){
->>>>            println( "Value of a: " + a );
->>>>         }
+>>>>         var a = 0;
+>>>>         var b = 0; val numList = List(4,5,6);
+>>>>      // for loop execution with a range and List
+>>>>         for( a <- 1 to 3){ println( "Value of a: " + a ); }
+>>>>         for( a <- numList){println( "Value of b: " + b ); }
 >>>>      }
 >>>>   }
-
->>>> ```
->>>> value of a: 1
-     value of a: Z
-     value of a: 3
-     value of a: 4
-     value of a: 5
-
->>>> **while Loop**
+>>>>  //Output
+>>>>  value of a: 1
+>>>>  value of a: Z
+>>>>  value of a: 3
+>>>>  value of b: 4
+>>>>  value of b: 5
+>>>>  value of b: 6
+>>> Scala also hosts nested for loop and loops with conditions similiar to what is seen in Java
+>>>> **while Loop** - It tests the condition before executing the loop body and repeats the statement or group of statements while a given condition is true.
+>>>>  ```
+>>>>  while(condition){
+>>>>     statement(s);}
+>>>>  ```scala
+>>>>  object Demo {
+>>>>     def main(args: Array[String]) {
+>>>>     // Local variable declaration:
+>>>>       var a = 12;
+>>>>         // while loop execution
+>>>>       while( a < 17 ){
+>>>>          println( "Value of a: " + a );
+>>>>         a = a + 1;
+>>>>      }
+>>>>>   }
+>>>>> }
+value of a: 12
+value of a: 13
+value of a: 14
+value of a: 15
+value of a: 16
 
 >>> **Functions**
 

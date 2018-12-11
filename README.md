@@ -107,12 +107,17 @@
 >>>> ````
 >>>> val myVal : String = "Foo"
 >>>> val dVal : String - "Fee"
+>>> Scala also supports variable type inference and Multiple assignments such as tuples
 >>> **Conditions**
+
 >>> **Loop**
 >>>> **For Loop**
 >>>> **while Loop**
+
 >>> **Functions**
+
 >>> **Recursion**
+
 >>> **Files I/O**
 
 >>> 

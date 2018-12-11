@@ -58,11 +58,11 @@
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
-```clojure
+clojure
 (let [x 10
       y 20]
   (+ x y))
-```
+`
 
 ## About the standard library
 

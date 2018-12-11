@@ -79,6 +79,7 @@ Yet Scala has type inference - so its typically as concise as Ruby/Groovy but th
 >>>> - Slow Compilation- In the world of coding speed in very important and Scala is slow in comparison to Java and Kotlin, which runs in second where as it runs in seconds.
 >>>> - Binary Compilation in Challenging- for a few versions. Let us say you compiled with Scala 2.11 the same would not compile with 2.1.
 >>>> - Less Efficient in the Management of Null Safety.
+
 >>> Strength-
 >>>> - Simple and straightforward syntax- Scala typically requires two-thirds less code than Java. The syntax is also more flexible. For example, you can leave out periods between method calls so the code is more human-readable and easier to understand.
 >>>> - Inherently immutable objects- Scala’s programming language reduces many thread-safety concerns that spring up in traditional Java applications.

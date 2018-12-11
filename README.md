@@ -48,37 +48,22 @@
  >>>      println("Hello, world!") // prints Hello World
  >>>  }
  >>> }
+ 
+ >>>  The file is saved as **Helloworld.scala**
+ >>>  Then open commmand promtpt and go to the directory where you saved the program
+ Then '**scalac**' command is typed in fromt of the file **Helloworld.scala** in commmand prompt to compile the file.
+ Since this is only bytecode whic will run in Java Virtual Machine (JVM) using '**scala**' command.
+ >>>   ```
+ >>>   \> scalac HelloWorld.scala
+ >>>   \> scala HelloWorld
+ 
+ >>>   The above command is used to compile and execute the Scala program. And output 
+ >>>   ```
+ >>>   Hello, World!
+ 
+
 
 ```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-``````clojure
 (let [x 10
       y 20]
   (+ x y))
@@ -86,6 +71,10 @@
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
+>> - 
+>> - 
+>> - 
+>> - 
 
 
 ## About the standard library

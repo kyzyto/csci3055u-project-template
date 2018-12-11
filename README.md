@@ -111,7 +111,7 @@
 
 >>> **Conditions and Boolen expression**- Like in Java, Scala similarly has the same concepts of conditions;
 >>>> - **If Statement** - if the Boolean expression evaluates to true then the block of code inside the ‘if’ expression will be executed. If not, the first set of code after the end of the ‘if’ expression (after the closing curly brace) will be executed.
->>>>  ```
+>>>>  ```scala
 >>>>  object Demo {
 >>>>     def main(args: Array[String]) {
 >>>>        var x = 10;
@@ -120,10 +120,10 @@
 >>>>        }
 >>>>     }
 >>>>  }
-
 >>>> **Output** - 
 >>>>   ```
 >>>>  This is if statement
+
 >>>> - **If-else Statement** - if An ‘if’ statement can be followed by an optional else statement, which executes when the Boolean expression is false.
 >>>>  ```
 >>>>  object Demo {

@@ -43,30 +43,29 @@ community written in the language._
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+
 
 >> **The style of programming supported by the language: functional vs procedural programming**
->>> One of Scala’s perks is that its functional programming functionality with an OOP style
+>>> _One of Scala’s perks is that its functional programming functionality with an OOP style._
 
 
 >> **The ability to perform meta-programming such as macros**
->>> Pattern matching in Scala is no joke. Scala uses the match statement for this purpose, which is a powerful version of Java's switch statement. It allows you to match on any type of data, lists, and even your own types. If you haven't already tried it, I suggest you play around with it a little
+>>> _Pattern matching in Scala is no joke. Scala uses the match statement for this purpose, which is a powerful version of Java's switch statement. It allows you to match on any type of data, lists, and even your own types. If you haven't already tried it, I suggest you play around with it a little._
 
 >> **Symbol resolution and its support for closure**
->>> Simple symbol resolutions are by far the most common. In this case, two symbols with similar characteristics are detected, with one symbol taking precedence over the other. This symbol resolution is carried out silently by the link-editor. For example, with symbols of the same binding, a symbol reference from one file is bound to a defined, or tentative symbol definition, from another file. Or, a tentative symbol definition from one file is bound to a defined symbol definition from another file. This resolution can occur between two relocatable objects, or between a relocatable object and the first definition found in a shared object dependency.
+>>> _Simple symbol resolutions are by far the most common. In this case, two symbols with similar characteristics are detected, with one symbol taking precedence over the other. This symbol resolution is carried out silently by the link-editor. For example, with symbols of the same binding, a symbol reference from one file is bound to a defined, or tentative symbol definition, from another file. Or, a tentative symbol definition from one file is bound to a defined symbol definition from another file. This resolution can occur between two relocatable objects, or between a relocatable object and the first definition found in a shared object dependency._
 
->>> Symbols that undergo resolution can have either a global or weak binding. Within relocatable objects, weak bindings have lower precedence than global binding. Relocatable object symbols with different bindings are resolved according to a slight alteration of the basic rules. Weak symbols can usually be defined through the compiler, either individually or as aliases to global symbols.
+>>> _Symbols that undergo resolution can have either a global or weak binding. Within relocatable objects, weak bindings have lower precedence than global binding. Relocatable object symbols with different bindings are resolved according to a slight alteration of the basic rules. Weak symbols can usually be defined through the compiler, either individually or as aliases to global symbols._
 
 
->>> Complex symbol resolutions occur when two symbols of the same name are found with differing attributes. In these cases, the link-editor generates a warning message, while selecting the most appropriate symbol. This message indicates the symbol, the attributes that conflict, and the identity of the file from which the symbol definition is taken. In the following example, two files with a definition of the data item array have different size requirements.
+>>> _Complex symbol resolutions occur when two symbols of the same name are found with differing attributes. In these cases, the link-editor generates a warning message, while selecting the most appropriate symbol. This message indicates the symbol, the attributes that conflict, and the identity of the file from which the symbol definition is taken. In the following example, two files with a definition of the data item array have different size requirements._
 
 >> **Scoping rules supported by the language: lexical vs dynamic scoping**
-The scoping rules supported by the language is lexical
+>>> _The scoping rules supported by the language is lexical._
 
 >> **Functional programming constructs either as part of the language or supported by the standard library of the runtime**
 
->>> It allows you to interact seamlessly with standard Java libraries while developing from a functional perspective
+>>> _It allows you to interact seamlessly with standard Java libraries while developing from a functional perspective._
 
 
 >> **Its type system: static vs dynamic types**

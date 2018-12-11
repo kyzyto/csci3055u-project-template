@@ -18,7 +18,7 @@
 ## About the syntax
 
 > _give some code snippet of the language._
- >> - Interactive mode.
+ >> - ### Interactive mode ###
  >> - Script mode
 
 *Let form*

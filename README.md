@@ -98,6 +98,24 @@
  >>>>   ```
  >>>>   val g = "hello"; println(g)
  >>>> - Blank Lines and Whitespace - In Scala lines containing only whitespace, could possibly be with a comment, is known as a blank line, and Scala totally ignores it while running the program. Tokens may be separated by whitespace characters and/or comments.
+
+>>> **Variables**- In Scala variables can have three different scopes depending on the place where they are being used. The could exist as fields, as methods parameters and as local variables. Scalar has different synatax for variable declaration. It goes from **nutable variables** with the keyword being **var**;
+>>>> ```
+>>>> var myVar : String = "Foo"
+>>>> var dVar : String - "Fee"
+>>> to **immutable variables** with the keyword being **val**;
+>>>> ````
+>>>> val myVal : String = "Foo"
+>>>> val dVal : String - "Fee"
+>>> **Conditions**
+>>> **Loop**
+>>>> **For Loop**
+>>>> **while Loop**
+>>> **Functions**
+>>> **Recursion**
+>>> **Files I/O**
+
+>>> 
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.

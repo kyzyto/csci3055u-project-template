@@ -18,7 +18,7 @@
 ## About the syntax
 
 > _Scala could be executed in two modes: one is interactice mode and the another is script mode._
- >> - ### Interactive mode ###
+ >> - ### Interactive mode ### - Here the user codes and runs directly in the command prompt
  >>> To open scala in the command prompt use the following  command.
  >>>  ```
  >>>  \>scala
@@ -37,7 +37,7 @@
  >>>  ```
  >>>  Hello, Scala!
  
- >> - ### Script mode ###
+ >> - ### Script mode ### -Here the user codes in a file then compiles and executes the file from the command prompt
  >>> **HelloWorld**
  >>> ```scala
  >>>  object HelloWorld {

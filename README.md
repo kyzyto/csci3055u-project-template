@@ -18,8 +18,8 @@
 ## About the syntax
 
 > _give some code snippet of the language._
- ###Interactive mode###
- ###Script mode###
+ >> ###Interactive mode###
+ >> ###Script mode###
 
 *Let form*
 

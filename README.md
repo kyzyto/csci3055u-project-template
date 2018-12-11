@@ -20,7 +20,7 @@
 > _give some code snippet of the language._
  >> - ### Interactive mode ###
  >>> To open scala in the command prompt use the following  command
- >>> ```scala(\>scala)```
+ >>> ```(\>scala)```
  
  >> - ### Script mode ###
 

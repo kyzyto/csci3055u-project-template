@@ -21,14 +21,16 @@
  >> - ### Interactive mode ###
  >>> To open scala in the command prompt use the following  command.
  
- >>>  ```\>scala```
+ >>>  ```
+      \>scala
+      ```
  
  >>> The following should be displayed if Scala is installed in your system.
  
  >>>  ```
- >>>   Welcome to Scala version 2.9.0.1
- >>>   Type in expressions to have them evaluated.
- >>>   Type :help for more information.```
+ >>>  Welcome to Scala version 2.9.0.1
+ >>>  Type in expressions to have them evaluated.
+ >>>  Type :help for more information.```
  
  >> - ### Script mode ###
 

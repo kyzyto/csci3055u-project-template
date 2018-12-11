@@ -19,7 +19,10 @@
 
 > _give some code snippet of the language._
  >> - ### Interactive mode ###
- >> - Script mode
+ >>> To open scala in the command prompt use the following  command
+ >>> ```\>scala
+```
+ >> - ### Script mode ###
 
 *Let form*
 

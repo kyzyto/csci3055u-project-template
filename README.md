@@ -108,10 +108,25 @@
 >>>> val myVal : String = "Foo"
 >>>> val dVal : String - "Fee"
 >>> Scala also supports variable type inference and Multiple assignments such as tuples
->>> **Conditions**
+
+>>> **Conditions and Boolen expression**- Like in Java, Scala similarly has the same concepts of conditions;
+>>>> - **If Statement** - if the Boolean expression evaluates to true then the block of code inside the ‘if’ expression will be executed. If not, the first set of code after the end of the ‘if’ expression (after the closing curly brace) will be executed.
+>>>
+>>>>  ```
+>>>>  object Demo {
+>>>>     def main(args: Array[String]) {
+>>>>        var x = 10;
+
+>>>>        if( x < 20 ){ //if (boolean_expression)
+>>>>           println("This is if statement"); //Statements will execute if the Boolean expression is true
+>>>>        }
+>>>>     }
+>>>>  }
+      
 
 >>> **Loop**
 >>>> **For Loop**
+
 >>>> **while Loop**
 
 >>> **Functions**

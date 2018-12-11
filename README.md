@@ -23,7 +23,7 @@
  
  >>>  ```\>scala```
  
- >>> The following should be displayed if Scala is installed in your system
+ >>> The following should be displayed if Scala is installed in your system.
  
  >>>  ```Welcome to Scala version 2.9.0.1
 Type in expressions to have them evaluated.

@@ -83,16 +83,16 @@
  
  >>> **Comments, Newline Characters, Blank Lines and Whitespace in Scala**
  >>>> - Comments - In Scala single-line and multiple-line comments are supported in a very similar way to Java. All characters available inside any comment are ignored by Scala compiler. So it is important that multi-line comments be nested, and are required to be nested properly.
- >>> **HelloWorld**
- >>> ```scala
- >>>  object HelloWorld {
- >>>  /* This is my first java program.  
- >>>  * This will print 'Hello World' as the output
- >>>  */
- >>>  def main(args: Array[String]) {
- >>>      println("Hello, world!") // prints Hello World
- >>>  }
- >>> }
+ >>>> **HelloWorld**
+ >>>> ```scala
+ >>>>  object HelloWorld {
+ >>>>  /* This is my first java program.  
+ >>>>  * This will print 'Hello World' as the output
+ >>>>  */
+ >>>>  def main(args: Array[String]) {
+ >>>>      println("Hello, world!") // prints Hello World
+ >>>>  }
+ >>>> }
  
  >>>> - Newline Characters - Since Scala is line-oriented language where statements may be terminated by semicolons (;) or newlines. It has a very similar approach to this like as that of Java
  >>>>   ```

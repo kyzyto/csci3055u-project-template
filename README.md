@@ -72,8 +72,8 @@
  >>>>>   ```
  >>>>>   + ++ ::: <?> :>
  >>>>> - **Alphanumeric Identifiers** - These kind of Identifiers could either start with a letter or and underscore, which other letters or underscore and digits could follow up. The the symbol '$" is restricted and should not be used in Scala as it is a reserved keyword.
- >>>>>   ```
- >>>>>   age, \_value, salary, \__1_value._
+ >>>>>   ```scala
+ >>>>>   age, _value, salary, _1_value.
  >>>>> - **Literal Identifiers** - These are basically arbitrary string enclosed in back ticks (`...`)
  >>>>>   ```
  >>>>>   `x `<clinit>` `yield`

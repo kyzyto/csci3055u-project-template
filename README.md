@@ -29,6 +29,14 @@
  >>>  Type in expressions to have them evaluated.
  >>>  Type :help for more information.```
  
+ >>>  Type the following text to the right of the Scala prompt and press the Enter key −
+ >>>  ```
+ >>>  scala> println("Hello, Scala!");```
+ 
+ >>>  The following result will be produced
+ >>>  ```
+ >>>  Hello, Scala!```
+ 
  >> - ### Script mode ###
 
 *Let form*

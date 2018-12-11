@@ -17,17 +17,17 @@
 
 ## About the syntax
 
-> _give some code snippet of the language._
+> _Scala could be executed in two modes: one is interactice mode and the another is script mode._
  >> - ### Interactive mode ###
  >>> To open scala in the command prompt use the following  command.
  >>>  ```
- >>>  \>scala```
+ >>>  \>scala
  
  >>> The following should be displayed if Scala is installed in your system.
  >>>  ```
  >>>  Welcome to Scala version 2.9.0.1
  >>>  Type in expressions to have them evaluated.
- >>>  Type :help for more information.```
+ >>>  Type :help for more information.
  
  >>>  Type the following text to the right of the Scala prompt and press the Enter key −
  >>>  ```
@@ -35,11 +35,19 @@
  
  >>>  The following result will be produced
  >>>  ```
- >>>  Hello, Scala!```
+ >>>  Hello, Scala!
  
  >> - ### Script mode ###
-
-*Let form*
+ >>> **HelloWorld**
+ >>> ```
+ >>>  object HelloWorld {
+ >>>  /* This is my first java program.  
+ >>>  * This will print 'Hello World' as the output
+ >>>  */
+ >>>  def main(args: Array[String]) {
+ >>>      println("Hello, world!") // prints Hello World
+ >>>  }
+ >>> }
 
 ```clojure
 (let [x 10

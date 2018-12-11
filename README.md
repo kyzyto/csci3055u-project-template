@@ -184,7 +184,7 @@
 >>>>   ```
 >>>>   while(condition){
 >>>>     statement(s);}
->>>>
+
 >>>>   ```scala
 >>>>   object Demo {
 >>>>      def main(args: Array[String]) {

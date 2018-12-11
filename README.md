@@ -242,10 +242,8 @@
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
->> - 
->> - 
->> - 
->> - 
+>> - In the IDE Eclipse there is an extension for Scala. This Scala IDE for Eclipse provides dedicated support for developing pure Scala and mixed applications. Scala IDE 3.0 offers a whole host of tools and features to make life easier for developers, this consists of the advanced editing tools including code completion, implicit and semantic highlighting to all new indent guide. To top it off there is even a shiny Scala debugger along with a few notable bug fixes, with a reliable Junit test finder and an asynchronous debugger. Furthermore JDK and its standard library is required to run Scala programs compiled by Eclipse.
+>> - IntelliJ IDEA is technically an IDE for Java, though the IDE provides support for lots of other languages like Scala, Groovy, Kotlin, JavaScript, TypeScript and SQL. In addition to the host of features, IntelliJ IDEA offers Scala-specific support in testing with ScalaTest. This makes it easier for developers to perform unit testing with ease. Other interesting features include smart completion, language injection, an editor-centric environment, and lots of useful build tools. Lastly it uses Java's Development kit and standard library in the compilation and execution.
 
 
 ## About the standard library

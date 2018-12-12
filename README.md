@@ -247,17 +247,25 @@
 
 
 ## About the standard library
+### Functions
+>>  The standard library inclcudes various packages that useful for multiple function use cases. One of such packages is the math package. It includes functions such as log, exp, sin, etc from **scala.math**
+>>> **Exponential and Logarithmic** - uses number data type to perform math arithmetics of exponential or Logarithmic respectively
+>>> ```scala
+>>> def log(x: Double): Double
+>>> def exp(x: Double): Double
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
->> - **Functions**
->>  - **scala.math**
->>    - **scala.ma
+>>> **Rounding** - rounds number data types in function respective directions
+>>> ```scala
+>>> def floor(x: Double): Double
+>>> def ceil(x: Double): Double
 
->> - **Data Structures**
->>   - **scala.collection**
->>    - **scala.collection.immutable**
->>      - 
+>>> **Minimum and Maximum** - finds the min or max of two numbers depending on the funciton call
+>>> ```scala
+>>> def min(x: Double, y: Double): Double
+>>> def max(x: Double, y: Double): Double
+
+### Data Structures
+>>  The standard library inclcudes various packages that useful for multiple data structure use cases. One of such packages is the math package. It includes data structures such as list, maps, sets, vectors, etc from **scala.collection.immutable**
 
 ## About open source library
 

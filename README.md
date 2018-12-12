@@ -233,12 +233,68 @@
 
 
 >>> **Functions**
+>>>> Declaration
+>>>> ```scala
+>>>>    def functionName ([list of parameters]) : [return type]
 
->>> **Recursion**
+>>>> Definition
+>>>> ```
+>>>>    def functionName ([list of parameters]) : [return type] = {
+>>>>      function body
+>>>>      return [expr]
+>>>>    }
+
+>>>> Implementation
+>>>> ```scala
+>>>>    object add {
+>>>>       def addInt( a:Int, b:Int ) : Int = {
+>>>>          var sum:Int = 0
+>>>>          sum = a + b
+>>>>          return sum
+>>>>       }
+>>>>    }
+
+>>>> Calling functions
+>>>> ```scala
+>>>>    object Demo {
+>>>>       def main(args: Array[String]) {
+>>>>          println( "Returned Value : " + addInt(5,7) );
+>>>>       }   
+>>>>       def addInt( a:Int, b:Int ) : Int = {
+>>>>          var sum:Int = 0
+>>>>          sum = a + b
+>>>>         return sum
+>>>>       }
+>>>>    }
 
 >>> **Files I/O**
+>>>> Writing from a scala file called Demo.scala to a text file called Demo.txt
+>>>> ```scala
+>>>>    import java.io._
+>>>>     object Demo {
+>>>>        def main(args: Array[String]) {
+>>>>           val writer = new PrintWriter(new File("test.txt" ))
+>>>>           writer.write("Hello Scala")
+>>>>           writer.close()
+>>>>       }
+>>>>     }
+>>>>    // Output - Hello Scala
+>>>> Reading from the Demo.txt  file through the Demo.scala file to the command prompt
+>>>> ```scala
+>>>>    import scala.io.Source
+>>>>    object Demo {
+>>>>       def main(args: Array[String]) {
+>>>>          println("Following is the content read:" )
+>>>>          Source.fromFile("Demo.txt" ).foreach { 
+>>>>             print 
+>>>>          }
+>>>>       }
+>>>>     }
+>>>>    // Output-
+>>>>    Following is the content read:
+>>>>    Hello Scala
 
->>> 
+
 ## About the tools
 
 > _Describe the compiler or interpreter needed_.
@@ -268,8 +324,8 @@
 >>  The standard library inclcudes various packages that useful for multiple data structure use cases. One of such packages is the math package. It includes data structures such as list, maps, sets, vectors, etc from **scala.collection.immutable**
 
 ## About open source library
->> - briefly about the scala community - The Scala programming language is an open source project with a very diverse community, where people from all over the world contribute their work, with everyone benefiting from friendly help and advice.
->> - Play framework as a contribution by the community - Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development
+>> - briefly about the scala community - The Scala open source community is a very diverse community, where people from all over the world contribute their work to benefit the community as a whole
+>> - Play framework as a contribution by the community - One of such contributions by the community is the Play web framework. Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development
 >> - Features of play framework
 >>   * It is developer friendly as it supports type safety, built in testing tools and IDEs such as Eclipse and Intellij IDEA
 >>   * It uses a fully asynchronous model built on top of Akka

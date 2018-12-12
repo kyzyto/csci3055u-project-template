@@ -250,13 +250,14 @@
 
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
->> - ###**Functions**###
->>  - scala.math
->>    - scala.
+>> - **Functions**
+>>  - **scala.math**
+>>    - **scala.ma
 
->> - ###**Data Structures**###
->>  - **scala.collection**
+>> - **Data Structures**
+>>   - **scala.collection**
 >>    - **scala.collection.immutable**
+>>      - 
 
 ## About open source library
 

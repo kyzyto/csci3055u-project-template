@@ -266,6 +266,7 @@
 >>>>         return sum
 >>>>       }
 >>>>    }
+>>>>    Output - Return Value : 12
 
 >>> **Files I/O**
 >>>> Writing from a scala file called Demo.scala to a text file called Demo.txt
@@ -381,5 +382,3 @@ Yet Scala has type inference - so its typically as concise as Ruby/Groovy but th
 >>>> - It is fun- Scala challenges strong engineers in a meaningful and entertaining manner, making development more fun.
 >>>> - Easy to solve concurrency issues. It has an Actor library to solve concurrency problems more rapidly.
 >>>> - XML support. Scala supports XML, which is beneficial if you have a need to encode documents in your products._
-
-# References

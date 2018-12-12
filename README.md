@@ -268,19 +268,19 @@
 >>  The standard library inclcudes various packages that useful for multiple data structure use cases. One of such packages is the math package. It includes data structures such as list, maps, sets, vectors, etc from **scala.collection.immutable**
 
 ## About open source library
->> - briefly about the scala community - 
+>> - briefly about the scala community - The Scala programming language is an open source project with a very diverse community, where people from all over the world contribute their work, with everyone benefiting from friendly help and advice.
 >> - Play framework as a contribution by the community - Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development
 >> - Features of play framework
->> * It is developer friendly as it supports type safety, built in testing tools and IDEs such as Eclipse and Intellij IDEA
->> * It uses a fully asynchronous model built on top of Akka
->> * It is stateless and scales simply and predictably
->> * It was built primarly for needs of mobile apps & modern web
+>>   * It is developer friendly as it supports type safety, built in testing tools and IDEs such as Eclipse and Intellij IDEA
+>>   * It uses a fully asynchronous model built on top of Akka
+>>   * It is stateless and scales simply and predictably
+>>   * It was built primarly for needs of mobile apps & modern web
 >> - Who uses Play framework
->>  - EA 
->>  - verizon 
->>  - Walmart
->>  - Linkedin 
->>  - Samsung
+>>   - EA 
+>>   - verizon 
+>>   - Walmart
+>>   - Linkedin 
+>>   - Samsung
 
 # Analysis of the language
 >> **The style of programming supported by the language: functional vs procedural programming**
